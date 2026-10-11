@@ -1,0 +1,17 @@
+{
+  "tracking_code": "BR123",
+  "current_status": "delivered",
+  "tracking_state": "completed",
+  "transit_started_at": "2026-10-01T12:00:00.000Z",
+  "delivered_at": "2026-10-03T12:00:00.000Z",
+  "elapsed_transit_ms": 172800000,
+  "currently_delayed": false,
+  "late_delivery": false,
+  "alert": null,
+  "history": [
+    { "event_id": "br123-1", "raw_status": "POSTADO", "normalized_status": "posted", "occurred_at": "2026-10-01T12:00:00.000Z", "location": "São Paulo" },
+    { "event_id": "br123-2", "raw_status": "EM_TRANSITO", "normalized_status": "in_transit", "occurred_at": "2026-10-02T12:00:00.000Z", "location": "Belo Horizonte" },
+    { "event_id": "br123-3", "raw_status": "ENTREGUE", "normalized_status": "delivered", "occurred_at": "2026-10-03T12:00:00.000Z", "location": "Belo Horizonte" },
+    { "event_id": "br123-4", "raw_status": "TRANSPORTADORA_INVENTOU", "normalized_status": "unknown", "occurred_at": "2026-10-04T12:00:00.000Z", "location": null }
+  ]
+}
